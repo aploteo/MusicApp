@@ -23,16 +23,16 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnCom
 
         final ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song(R.drawable.greedy, "Razorblade Suitcase", "Bush", "Greedy", R.string.greedy, R.raw.bush_greedy_fly));
-        songs.add(new Song(R.drawable.anna, "Films about ghosts", "Counting Crows", "Anna begins", R.string.anna, R.raw.counting_crows_anna_begins));
+        songs.add(new Song(R.drawable.greedy, "Razorblade Suitcase", "Bush", "Greedy", R.string.bush, R.raw.bush_greedy_fly));
+        songs.add(new Song(R.drawable.anna, "Films about ghosts", "Counting Crows", "Anna begins", R.string.countingcrows, R.raw.counting_crows_anna_begins));
         songs.add(new Song(R.drawable.deftones, "White Pony", "Deftones", "Change", R.string.deftones, R.raw.deftones_change));
         songs.add(new Song(R.drawable.deftones, "White Pony", "Deftones", "Lhabia", R.string.deftones, R.raw.deftones_lhabia));
         songs.add(new Song(R.drawable.deftones, "White Pony", "Deftones", "The Chauffer", R.string.deftones, R.raw.deftones_the_chauffeur));
-        songs.add(new Song(R.drawable.klingande, "Jubel", "Klingande", "Jubel", R.string.jubel, R.raw.klingande_jubel));
-        songs.add(new Song(R.drawable.radio, "Pablo Honey", "Radiohead", "Creep", R.string.radio, R.raw.radiohead_creep));
-        songs.add(new Song(R.drawable.radio, "Pablo Honey", "Radiohead", "High and Dry", R.string.radio, R.raw.radiohead_high_and_dry));
-        songs.add(new Song(R.drawable.sp1979, "Aero Plane Files", "The Smashing Pumpkins", "1979", R.string.sp1979, R.raw.the_smashing_pumpkins_1979));
-        songs.add(new Song(R.drawable.line, "Simple Things", "Zero 7", "In the Waiting Line", R.string.line, R.raw.zero7_in_the_waiting_line));
+        songs.add(new Song(R.drawable.klingande, "Jubel", "Klingande", "Jubel", R.string.klingande, R.raw.klingande_jubel));
+        songs.add(new Song(R.drawable.radio, "Pablo Honey", "Radiohead", "Creep", R.string.radioheads, R.raw.radiohead_creep));
+        songs.add(new Song(R.drawable.radio, "Pablo Honey", "Radiohead", "High and Dry", R.string.radioheads, R.raw.radiohead_high_and_dry));
+        songs.add(new Song(R.drawable.sp1979, "Aero Plane Files", "The Smashing Pumpkins", "1979", R.string.smashing, R.raw.the_smashing_pumpkins_1979));
+        songs.add(new Song(R.drawable.line, "Simple Things", "Zero 7", "In the Waiting Line", R.string.zero7, R.raw.zero7_in_the_waiting_line));
 
         SongAdapter itemsAdapter = new SongAdapter(this, songs);
 
